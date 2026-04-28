@@ -7,4 +7,4 @@ app.include_router(cars_router)
 
 @app.get("/")
 def root():
-    return {"status": "API is running 🚀"}
+    return {"status": "API is running "}
